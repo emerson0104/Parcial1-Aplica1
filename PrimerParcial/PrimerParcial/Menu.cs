@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PrimerParcial.UI.Registro;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace PrimerParcial
         public Menu()
         {
             InitializeComponent();
+        }
+
+        private void EvaluacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rEvaluacion r = new rEvaluacion();
+            r.Show();
         }
     }
 }
